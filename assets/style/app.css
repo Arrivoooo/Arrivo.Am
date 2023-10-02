@@ -1,9 +1,6 @@
 body{
     background: linear-gradient(#9a08dd 0%, #dd4c4f 40%,#9a08dd 100%)
 }
-.navbar{
-    float: right;
-}
 .profile {
     display: flex;
     justify-content: center;
