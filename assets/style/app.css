@@ -1,43 +1,130 @@
-body{
-    background: linear-gradient(#9a08dd 0%, #dd4c4f 40%,#9a08dd 100%)
-}
-.profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
+body {
+   
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #fff;
     
 }
-.image3{
+
+.custom-shape-divider-bottom-1715463873 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715463873 svg {
+    position: r;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 300px;
+}
+
+.custom-shape-divider-bottom-1715463873 .shape-fill {
+    fill: #D100FC;
+}
+
+.custom-shape-divider-top-1715465204 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715465204 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 300px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1715465204 .shape-fill {
+    fill: #FC005D;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1715465204 svg {
+        width: calc(100% + 1.3px);
+        height: 50px;
+    }
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1715464249 svg {
+        width: calc(100% + 1.3px);
+        height: 50px;
+    }
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.profile {
+    position: relative;
+    background-color: #ff0080;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 80px rgb(209, 2, 255);
+    margin-top: 139px;
+    
+   
+}
+
+.profile-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
     width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    transition: transform 0.3s ease;
 }
-.profile h2 {
-    color: white;
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
 }
-.profile h4 {
-    color: white;
-    transform: translateY(-10px);
+
+.bio {
+    margin-bottom: 20px;
 }
-.biodata{
-  background: linear-gradient(#ffffff 0%, #ffffffd0 40%,#ffffff00 100%);
-  padding-bottom: 200px;
-  padding-top: 55px;
+
+.info {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
-.row{
-    padding: 0px 10px;
+
+.label {
+    width: 100px;
 }
-.pengalaman{
-    padding-top: 55px;
+
+.social-links a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
 }
-.footer{
-    background-color: white;
-    padding-bottom: 20px;
+
+.social-links a i {
+    margin-right: 5px;
 }
-.sosialmedia a {
-    color: black;
-    font-size: 30px;
-}
-.watermark{
-    padding-top: 30px;
+
+.social-links a:hover {
+    transform: scale(1.1);
 }
